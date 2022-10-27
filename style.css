@@ -9,5 +9,14 @@ body{
 
 .container{
     max-width: 1200px;
-    margin: 0 auto;
+    height: auto;
+    margin:0px 100px;
+    text-align: center;
+    padding: 40px 0;
+}
+header{
+    height: auto;
+    display: block;
+    text-align: center;
+    padding-top: 40px;
 }
