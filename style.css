@@ -6,7 +6,17 @@
 body{
     font-family: sans-serif;
 }
-
+h1{
+    font-family: 'Fredoka One', bold;
+    color:rgb(255, 0, 212);
+}
+h3, li{
+    font-family: 'Fredoka One', bold;
+    color:white;
+}
+li{
+    color:white;
+}
 .container{
     max-width: 1200px;
     height: auto;
@@ -14,9 +24,27 @@ body{
     text-align: center;
     padding: 40px 0;
 }
+.scheda_presentazione{
+    width: 300px;
+    max-height: 300px;
+    margin:0px 120px;
+    text-align:start;
+    background-color: black;    
+}
 header{
     height: auto;
     display: block;
     text-align: center;
     padding-top: 40px;
+}
+.float-left{
+    float:left;
+    margin-right:10px;
+}
+img{
+    height: 80px;
+    
+}
+.floatright{
+    float:right;
 }
