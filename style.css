@@ -25,11 +25,19 @@ li{
     padding: 40px 0;
 }
 .scheda_presentazione{
-    width: 300px;
     max-height: 300px;
     margin:0px 120px;
     text-align:start;
     background-color: black;    
+    
+}
+.colonna{
+    float:left;
+    width:33%;
+    padding-left: 40px;
+}
+ul{
+    list-style-type: none;
 }
 header{
     height: auto;
