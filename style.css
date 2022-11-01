@@ -20,21 +20,29 @@ li{
 .container{
     max-width: 1200px;
     height: auto;
-    margin:0px 100px;
+    margin:0px 90px;
     text-align: center;
     padding: 40px 0;
 }
-.scheda_presentazione{
-    max-height: 300px;
-    margin:0px 120px;
-    text-align:start;
-    background-color: black;    
-    
+
+.clearfix::after{
+    content:'';
+    display: table;
+    clear:both; 
 }
 .colonna{
     float:left;
-    width:33%;
-    padding-left: 40px;
+    width:calc(100% / 3);
+    padding:20px 0;
+}
+.scheda_presentazione{
+    height:100px;
+    width: 330px;
+    color:white;
+    background-color: black;        
+}
+.row{
+    margin: 0 - 20px;
 }
 ul{
     list-style-type: none;
@@ -50,7 +58,7 @@ header{
     margin-right:10px;
 }
 img{
-    height: 80px;
+    height: 100px;
     
 }
 .floatright{
