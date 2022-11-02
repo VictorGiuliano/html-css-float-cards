@@ -17,6 +17,9 @@ h3, li{
 li{
     color:white;
 }
+p{
+    padding-bottom: 50px;
+}
 .container{
     max-width: 1200px;
     height: auto;
@@ -33,19 +36,28 @@ li{
 .colonna{
     float:left;
     width:calc(100% / 3);
-    padding:20px 0;
+    padding:5px;
 }
 .scheda_presentazione{
     height:100px;
     width: 330px;
     color:white;
-    background-color: black;        
+    background-color: black;     
 }
-.row{
-    margin: 0 - 20px;
+
+.ordine{
+    width: 330px;
 }
 ul{
     list-style-type: none;
+}
+li{
+    font-family: sans-serif;
+    text-align: left;
+    margin-top: 8px;
+}
+.email{
+    color:rgb(0, 187, 255);
 }
 header{
     height: auto;
